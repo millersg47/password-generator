@@ -3,7 +3,7 @@
 ## PROJECT OVERVIEW
 This webpage is a random password generator. It asks the user how many characters they want included in the password, then it asks them which character types they want included, lastly, it generates a password to fit their requirements. 
 
-The webage is linked [here] ().
+The webage is linked [here](https://millersg47.github.io/password-generator/).
 
 ![The Password Generator application displays a red button to "Generate Password" and in the dashed bordered box a password example is shown.](./assets/password-generator-screenshot.png)
 
