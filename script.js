@@ -23,9 +23,13 @@ var generatePassword = function() {
 
   // prompt to collect user preference for character count and return function if invalid value is entered//
   var characterCount = prompt("How many characters would you like the password to include?");
+  characterCount =   parseInt(characterCount);
   // guard clause to stop program as soon as user submits a number below 8 or above 128//
   if (characterCount<8 || characterCount>128) {
     return;
+  };
+  if (Number.isNaN(characterCount)) {
+    return "Must submit numerical value";
   };
 
   //confirms to ask user which character types they want to include//
@@ -64,6 +68,9 @@ var generatePassword = function() {
       var specialRequired = specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
       password += specialRequired;
     };
+    if(!criteriaU && !criteriaL && !criteriaN && !criteriaS) {
+      return "Must select at least one character type!";
+    }
     console.log(selections);
       //for loop to collect user preferences into selections array and then pull from them to create password string//
     for (var i = 0; i < characterCount; i++) {
