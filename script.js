@@ -26,10 +26,10 @@ var generatePassword = function() {
   characterCount =   parseInt(characterCount);
   // guard clause to stop program as soon as user submits a number below 8 or above 128//
   if (characterCount<8 || characterCount>128) {
-    return;
-  };
+    return "Password must be between 8 and 128 characters long. Try again!";
+  }; 
   if (Number.isNaN(characterCount)) {
-    return "Must submit numerical value";
+    return "Must submit numerical value.";
   };
 
   //confirms to ask user which character types they want to include//
