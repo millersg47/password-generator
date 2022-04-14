@@ -7,6 +7,11 @@ The webage is linked [here](https://millersg47.github.io/password-generator/).
 
 ![The Password Generator application displays a red button to "Generate Password" and in the dashed bordered box a password example is shown.](./assets/password-generator-screenshot.png)
 
+![The Password Generator application displays prompts to ask the user about different criteria for their password. The interactivity is displayed in this screenshot showing the question about uppercase letters.](./assets/password-generator-2.png)
+
+## TECHNOLOGIES USED
+HTML, CSS, Javascript
+
 ## INSTALLATION
 Install the app locally by cloming the git repo and use a text editor to manipulate the code. 
 
@@ -18,3 +23,9 @@ Use the application to generate passwords that are between 8 and 128 characters 
 
 ## CREDITS
 No other contributors are involved in the project. 
+
+## LICENSE
+MIT license applied in LICENSE.txt file.
+
+## CONTACT
+Sophie Miller, millersg47@gmail.com
